@@ -175,7 +175,10 @@
       /* transition: border-color 0.15s; */
     }
     .project-link:hover { border-color: var(--accent); }
-
+ .link {
+  text-decoration: none;
+  color: black
+ }
     /* Writing */
     .note-list { list-style: none; }
     .note-item {
@@ -269,3 +272,13 @@
       .exp-header { flex-direction: column; gap: 2px; }
       footer { flex-direction: column; gap: 8px; }
     }
+
+.project-flexing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.li-bottom {
+  padding-bottom: 10px;
+border-bottom: 1px solid var(--rule);
+}
